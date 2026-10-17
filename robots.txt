@@ -1,0 +1,4 @@
+# WEBSITE URL: Replace the placeholder with the public GitHub Pages or custom-domain origin.
+User-agent: *
+Allow: /
+Sitemap: https://ameencode1.github.io/muhammad-ameen-memon/sitemap.xml
