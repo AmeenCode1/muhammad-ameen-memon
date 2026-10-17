@@ -2,11 +2,13 @@
 
 A complete static personal-brand website for Muhammad Ameen Memon, a Real Estate Virtual Assistant & Digital Marketing Specialist. It uses plain HTML5 and CSS3, with no JavaScript, framework, package manager, backend, build step, paid template, or external runtime dependency.
 
-## Live site and repository
+## GitHub repository and target site URL
 
-- **Website:** https://ameencode1.github.io/muhammad-ameen-memon/
-- **GitHub repository:** https://github.com/AmeenCode1/muhammad-ameen-memon
-- **Pages source:** the `main` branch, repository root.
+- **Public repository:** https://github.com/AmeenCode1/muhammad-ameen-memon
+- **Target Pages URL:** https://ameencode1.github.io/muhammad-ameen-memon/
+- **Pages source when enabled:** branch `main`, folder `/ (root)`.
+
+The code is on the `main` branch. GitHub Pages still needs to be enabled in repository settings: open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save. The target website URL will become available after GitHub finishes its first deployment.
 
 ## Project files
 
@@ -14,16 +16,16 @@ A complete static personal-brand website for Muhammad Ameen Memon, a Real Estate
 - `style.css` — responsive layout, colors, typography, components, and the CSS-only hero illustration.
 - `assets/social-preview.png` — local 1200 × 630 Open Graph/Twitter preview image.
 - `robots.txt` — crawler access and sitemap location.
-- `sitemap.xml` — one-page sitemap using the published URL.
+- `sitemap.xml` — one-page sitemap using the target URL above.
 - `manus-routes.json` — local preview route declaration; not required by GitHub Pages.
 
 The hero visual is drawn with CSS, so the site has no external or unverified image dependency. The social preview image is stored locally. Local asset paths are relative, so the site works from this GitHub Pages project URL and does not need server-side routing or a build step.
 
 ## Update and republish
 
-To change the site, edit the files in this folder or in the repository. Keep the homepage at the repository root as `index.html`. Commit and push changes to `main`; GitHub Pages serves the branch root. No build command or GitHub Actions workflow is required.
+To change the site, edit the files in this folder or in the repository. Keep the homepage at the repository root as `index.html`. Commit and push changes to `main`; after Pages is enabled, GitHub Pages serves the branch root. No build command or GitHub Actions workflow is required.
 
-If the repository name, GitHub username, or custom domain changes, update all absolute origin values in the canonical link, `og:url`, social-sharing image URLs, `robots.txt`, and `sitemap.xml`. The canonical homepage is currently `https://ameencode1.github.io/muhammad-ameen-memon/`; the sitemap is `https://ameencode1.github.io/muhammad-ameen-memon/sitemap.xml`.
+If the repository name, GitHub username, or custom domain changes, update all absolute origin values in the canonical link, `og:url`, social-sharing image URLs, `robots.txt`, and `sitemap.xml`. The canonical homepage and sitemap currently use the target URL `https://ameencode1.github.io/muhammad-ameen-memon/` and `https://ameencode1.github.io/muhammad-ameen-memon/sitemap.xml` respectively.
 
 ### Personal details and content
 
@@ -36,7 +38,4 @@ If the repository name, GitHub username, or custom domain changes, update all ab
 
 ## Google Search Console
 
-1. Open [Google Search Console](https://search.google.com/search-console/) and add a **URL-prefix** property using `https://ameencode1.github.io/muhammad-ameen-memon/`.
-2. Select an ownership-verification method. For the HTML-tag method, add the supplied verification meta tag inside the `<head>` of `index.html`, publish the change to `main`, then select **Verify**. For the HTML-file method, add Google's exact verification file to the repository root and publish it at the URL Search Console specifies.
-3. In Search Console, open **Sitemaps** and submit `https://ameencode1.github.io/muhammad-ameen-memon/sitemap.xml`.
-4. Check the Pages and URL inspection reports over time. Sitemap submission does not guarantee indexing or a particular search position.
+After the Pages site has been enabled and the target URL loads, add a **URL-prefix** property for `https://ameencode1.github.io/muhammad-ameen-memon/` in [Google Search Console](https://search.google.com/search-console/). Select an ownership-verification method. For the HTML-tag method, add the supplied verification meta tag inside the `<head>` of `index.html`, publish the change to `main`, then select **Verify**. For the HTML-file method, add Google's exact verification file to the repository root and publish it at the URL Search Console specifies. Submit `https://ameencode1.github.io/muhammad-ameen-memon/sitemap.xml` under **Sitemaps**. Submission does not guarantee indexing or a particular search position.
